@@ -1,0 +1,152 @@
+@media (max-width: 319px){
+
+    .coming-soon{
+        overflow-x: hidden;
+
+        &__title{
+            padding-top: 2rem;
+
+            h1{
+                font-size: 6rem;
+            }
+
+            p{
+                position: relative;
+                top: -2.8rem;
+            }
+
+            img{
+                position: relative;
+                top: -20rem;
+                left: 22.5rem;
+            }
+        }
+
+        &__countdown{
+            position: relative;
+            top: -16rem;
+
+            h2{
+                font-size: 2rem;
+            }
+
+            p{
+                font-size: 1.4rem;
+
+                span{
+                    font-size: 6.8rem;
+                    display: block;
+                }
+            }
+        }
+
+        &__socials{
+            position: relative;
+            top: 32rem;
+            z-index: 2;
+        }
+    }
+
+    .background{
+        position: relative;
+        top: 38rem;
+        left: -18rem;
+        width: 32rem;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .coming-soon{
+        overflow-x: hidden;
+
+        &__title{
+            padding-top: 2rem;
+
+            h1{
+                font-size: 6.4rem;
+            }
+
+            p{
+                position: relative;
+                top: -2.8rem;
+            }
+
+            img{
+                position: relative;
+                top: -20rem;
+                left: 24rem;
+            }
+        }
+
+        &__countdown{
+            position: relative;
+            top: -16rem;
+
+            h2{
+                max-width: 2rem;
+                font-size: 2rem;
+            }
+
+            p{
+                font-size: 1.4rem;
+
+                span{
+                    font-size: 6.8rem;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .background{
+        width: 38rem;
+        margin-right: 26rem;
+    } 
+   
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .coming-soon{
+        overflow-x: hidden;
+    }
+
+    .background{
+        width: 42rem;
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .coming-soon{
+        overflow-x: hidden;
+    }
+
+    .background{
+        width: 46rem;
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .coming-soon{
+        overflow-x: hidden;
+    }
+
+    .background{
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 1201px){
+    .coming-soon{
+        overflow-x: hidden;
+    }
+
+    .background{
+        margin-left: 4rem;
+    }
+}
+
+
